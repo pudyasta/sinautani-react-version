@@ -1,0 +1,11 @@
+.nav-link {
+    color: #d1e6d4 !important;
+    font-weight: bolder;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    font-family: Rubik !important;
+}
+.nav-link:hover {
+    color: #ffffff !important;
+}

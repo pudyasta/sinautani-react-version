@@ -1,0 +1,14 @@
+.category {
+    background-color: #e7f3e9;
+}
+.title-category {
+    text-align: center;
+    padding-top: 80px;
+}
+.category-title {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 33px;
+    text-align: center;
+}

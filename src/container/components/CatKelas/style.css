@@ -1,0 +1,47 @@
+
+.card-category {
+    margin: 10px 15px;
+}
+.card.card-category {
+    background-color: transparent;
+    border: none;
+}
+.category-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.card-title {
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 38px;
+    color: #ffffff;
+}
+.card-text {
+    font-family: Rubik;
+    font-size: 1rem;
+    line-height: 25px;
+    align-items: center;
+    color: #e7f3e9;
+}
+
+.category-img {
+    max-width: 335px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7f3e9 !important;
+    box-shadow: 3px 3px rgb(142, 211, 153) !important;
+}
+
+.category-cms{
+    max-width: 335px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #e7f3e9 !important;
+    opacity: 50%;
+}

@@ -1,0 +1,11 @@
+.kategori-head{
+    display: inline-block;
+    font-family: Rubik;
+    padding: 0.7rem 1rem;
+    background-color: #256a34;
+    font-weight: bold !important;
+    color: #E7F3E9 !important;
+    font-size: 1rem !important;
+    border-radius: 30px;
+    margin-top: 12rem;
+}

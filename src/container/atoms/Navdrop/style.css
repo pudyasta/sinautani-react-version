@@ -1,0 +1,83 @@
+
+.custom-select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.custom-options {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-10px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 2;
+    transition: all .1s;
+    overflow: hidden;
+}
+.custom-select.open .custom-options {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+.custom-option {
+    background-color: #51ad65;
+    position: relative;
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.custom-option:hover {
+    cursor: pointer;
+    background-color: #35974a;
+}
+.custom-option.selected {
+    color: #ffffff;
+    background-color: #305c91;
+}
+
+.arrow {
+    position: relative;
+    margin-left: 15px;
+    height: 10px;
+    width: 15px;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0.15rem;
+    height: 100%;
+    transition: all 0.5s;
+}
+.arrow::before {
+    left: 0px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+.arrow::after {
+    left: 5px;
+    transform: rotate(-45deg);
+    background-color: #fff;
+}
+.open .arrow::before {
+    left: 0px;
+    transform: rotate(-45deg);
+}
+.open .arrow::after {
+    left: 5px;
+    transform: rotate(45deg);
+}

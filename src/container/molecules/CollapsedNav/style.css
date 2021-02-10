@@ -1,0 +1,11 @@
+.dropdown-menu {
+    color: #35974a !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    background-color: #e7f3e9 !important;
+    font-family: Rubik !important;
+}
+
+.dropdown-item:hover:focus,.dropdown-item:active{
+    background-color: #35974a;
+}

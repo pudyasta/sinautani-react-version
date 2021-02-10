@@ -1,0 +1,27 @@
+.navbar-font {
+    color: #e7f3e9;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+    font-family: Rubik;
+    padding: 1rem 0 !important;
+}
+
+.bg-basic{
+    background-color: #35974a;
+
+}
+
+
+@media(max-width:676px){
+    .navbar-font {
+        color: #e7f3e9;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 19px;
+        font-family: Rubik;
+    }
+    
+  
+}
