@@ -1,10 +1,11 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 const Button = (props) => {
     return (
         <>
-            <a className={props.kind + " btn mx-1"} href={props.to} role="button">{props.contain}</a>
+            <Link className={props.kind + " btn mx-1  js-scroll-trigger"} to={props.to} >{props.contain}</Link>
         </>
     )
 }

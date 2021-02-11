@@ -1,9 +1,9 @@
 .category {
     background-color: #e7f3e9;
+    padding :70px 0;
 }
 .title-category {
     text-align: center;
-    padding-top: 80px;
 }
 .category-title {
     font-family: Rubik;

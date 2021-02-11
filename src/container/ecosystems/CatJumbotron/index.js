@@ -9,7 +9,7 @@ const CatJumbotron = (props) => {
         <>
             <JumbotronWrapper image={props.image}>
                 <Container className="jumbo-u">
-                    <h3 class="kategori-head ">KATEGORI KELAS</h3>
+                    <h3 className="kategori-head ">KATEGORI KELAS</h3>
                     <Heading contain={props.heading} className='m-1' />
                     <Small contain={props.paragraph} />
                     <Button kind='btn-light jumbo-button-1 js-scroll-triger' contain='lihat daftar kelas' />

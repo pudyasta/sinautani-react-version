@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { MainJumbotron as Jumbotron, About, Kelas } from '../../ecosystems'
-import { MainAbout, Pertanian } from '../../../assets'
+import { MainJumbotron as Jumbotron, About, Kelas, Benefit } from '../../ecosystems'
+import { MainAbout, PertanianCat, PerkebunanCat, HidroponikCat } from '../../../assets'
 import { CatKelas } from '../../components'
 
 export default class Main extends Component {
@@ -17,11 +17,24 @@ export default class Main extends Component {
                 <Kelas >
                     <CatKelas
                         to='/pertanian'
-                        image={Pertanian}
+                        image={PertanianCat}
                         title="Kategori Pertanian"
                         text='Tersedia 4 kelas'
                     />
+                    <CatKelas
+                        to='/pertanian'
+                        image={PerkebunanCat}
+                        title="Kategori Perkebunan"
+                        text='Tersedia 4 kelas'
+                    />
+                    <CatKelas
+                        to='/pertanian'
+                        image={HidroponikCat}
+                        title="Kategori Hidroponik"
+                        text='Tersedia 4 kelas'
+                    />
                 </Kelas>
+                <Benefit />
             </>
         )
     }

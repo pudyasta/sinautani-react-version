@@ -13,6 +13,7 @@
     transform: translate(-50%, -50%);
 }
 .card-title {
+    display: inherit;
     font-family: Rubik;
     font-weight: bold;
     font-size: 2rem;
@@ -44,4 +45,11 @@
     width: 50%;
     background-color: #e7f3e9 !important;
     opacity: 50%;
+}
+
+@media(max-width:800px){
+.category-content {
+    left: 50%;
+
+}
 }

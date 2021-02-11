@@ -4,7 +4,7 @@ import './style.css'
 const AboutSmall = (props) => {
     return (
         <>
-            <p className="about-small">{props.paragraph}</p>
+            <p className={props.className + "about-small"}>{props.paragraph}</p>
         </>
     )
 }

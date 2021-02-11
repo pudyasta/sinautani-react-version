@@ -4,7 +4,7 @@ import './style.css'
 const KelasSmall = (props) => {
     return (
         <>
-            <p class="category-description">{props.text}</p>
+            <p className="category-description">{props.text}</p>
         </>
     )
 }
