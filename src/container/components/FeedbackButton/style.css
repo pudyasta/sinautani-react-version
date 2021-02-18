@@ -1,0 +1,32 @@
+.feedback-box {
+    background-color: #e7f3e9;
+    border-radius: 5px;
+}
+.feedback-content {
+    padding: 1.5rem;
+}
+.feed-big {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.testi-button,
+.feed-button {
+    font-family: Rubik;
+    display: inline-block;
+    margin: 5px 3px;
+    background-color: #e7f3e9, 100%;
+    font-weight: 500 !important;
+    color: #e7f3e9 !important;
+    font-size: 1rem !important;
+    box-shadow: 4px 4px 0px 0px #249b5877 !important;
+    border-color: #35974a !important;
+}
+.testi-button,
+.feed-button:hover {
+    background-color: rgb(34, 116, 52);
+}

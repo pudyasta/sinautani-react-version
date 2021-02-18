@@ -8,4 +8,4 @@ import AboutSmall from './AboutSmall'
 import AboutHeading from './AboutHeading'
 import KelasSmall from './KelasSmall'
 
-export { Navlink, Navdrop, HeadingOne, JumboSmall, JumbotronWrapper, Button, AboutSmall, AboutHeading, KelasSmall }
+export { Navlink, Navdrop, HeadingOne, JumboSmall, JumbotronWrapper, Button, AboutSmall, AboutHeading, KelasSmall, }

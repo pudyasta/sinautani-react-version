@@ -11,7 +11,7 @@
     display: inline-block;
     margin: 4px 2px;
     font-weight: bold !important;
-    color: #ffffff !important;
+    color: #ffffff ;
     font-size: 1rem !important;
     box-shadow: 3px 3px rgba(255, 255, 255, 0.425) !important;
     text-transform: uppercase;
@@ -21,7 +21,7 @@
     color: #35974A !important;
     box-shadow: 3px 3px rgba(203, 255, 196, 0.705) !important;
 }
-.jumbo-button-2:hover{
+.jumbo-button-2:hover,.btn-outline-light.active{
     color: #35974A !important;
     box-shadow: 3px 3px rgba(203, 255, 196, 0.705) !important;
 }

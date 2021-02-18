@@ -1,8 +1,13 @@
 import Logo from './logo/icon.svg'
+import Logo2 from './logo/logo.png'
 import Jumbotron from './images/jumbotron.png'
 import JumbotronTani from './images/pertanian/jumbotron.png'
+import JumbotronKebun from './images/perkebunan/jumbotron.png'
+import JumbotronHidro from './images/hidroponik/jumbotron.png'
 import MainAbout from './images/img-about.png'
 import PertanianAbout from './images/pertanian/pertanian.png'
+import PerkebunanAbout from './images/perkebunan/perkebunan.png'
+import HidropponikAbout from './images/hidroponik/about.png'
 import PertanianCat from './images/kategori-pertanian.png'
 import PerkebunanCat from './images/kategori-perkebunan.png'
 import HidroponikCat from './images/kategori-hidroponik.png'
@@ -11,4 +16,4 @@ import Keuntungan2 from './images/keuntungan2.png'
 import Keuntungan3 from './images/keuntungan3.png'
 import Keuntungan4 from './images/keuntungan4.png'
 
-export { Logo, Jumbotron, JumbotronTani, MainAbout, PertanianCat, PerkebunanCat, HidroponikCat, PertanianAbout, Keuntungan1, Keuntungan2, Keuntungan3, Keuntungan4 }
+export { Logo, Logo2, Jumbotron, JumbotronTani, JumbotronKebun, JumbotronHidro, MainAbout, HidropponikAbout, PertanianCat, PerkebunanCat, HidroponikCat, PertanianAbout, PerkebunanAbout, Keuntungan1, Keuntungan2, Keuntungan3, Keuntungan4 }

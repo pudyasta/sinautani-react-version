@@ -1,0 +1,40 @@
+*{
+    font-family: Rubik;
+}
+.login-wrapper {
+    background-color: #e7f3e9;
+
+    height: 100vh;
+}
+.login-section {
+    height: 100vh;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+}
+.btn-success {
+    background-color: #219653;
+    width: 100%;
+    text-align: center;
+}
+
+.forgot-password{
+    display: block;
+    color: #ababab;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.forgot-password:hover,.forgot-password:active{
+    color: #6d6d6d;
+}
+.progress{
+    margin:0;
+    position: absolute !important;
+}
+@media(max-width:900px){
+    login-section{
+        overflow-y: scroll;
+    }
+}

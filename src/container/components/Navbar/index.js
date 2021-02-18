@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
-import { Collapse } from '../../molecules'
+import { Navlink, Navdrop } from '../../atoms'
 import { Logo } from '../../../assets'
 import './style.css'
 
@@ -12,7 +12,18 @@ const Navbar = () => {
                     <a className="navbar-brand" href="/">
                         <img src={Logo} alt="a" />
                     </a>
-                    <Collapse />
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul className="navbar-nav ms-auto">
+                            <Navlink nav='beranda' to="/" />
+                            <Navdrop />
+                            <Navlink nav='kenapa harus si tani' to="/pertanian" />
+                            <Navlink nav='Saran' to='/' />
+                            <Navlink nav='Tentang' to='/' />
+                        </ul>
+                    </div>
                 </div>
             </Nav>
         </>

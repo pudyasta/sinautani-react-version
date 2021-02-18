@@ -12,7 +12,7 @@ const CatJumbotron = (props) => {
                     <h3 className="kategori-head ">KATEGORI KELAS</h3>
                     <Heading contain={props.heading} className='m-1' />
                     <Small contain={props.paragraph} />
-                    <Button kind='btn-light jumbo-button-1 js-scroll-triger' contain='lihat daftar kelas' />
+                    <Button kind='btn-light jumbo-button-1 js-scroll-triger' contain='lihat daftar kelas' to={props.to} />
                 </Container>
             </JumbotronWrapper>
         </>
