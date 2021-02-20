@@ -1,12 +1,11 @@
 import { Navbar } from './components/'
-import { Main, Pertanian, Perkebunan, Hidroponik, Login } from './pages'
-import { BrowserRouter as Router, Switch, Route, browserHistory } from 'react-router-dom'
-import { Provider } from 'react-redux';
-import { store } from "../config/Redux/store"
+import { Main, Pertanian, Perkebunan, Hidroponik, Login, Dashboard } from './pages'
+import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom'
 import './App.css'
 
 
 import React, { Component } from 'react'
+import { AuthProvider } from '../config/context/authContext';
 
 export default class App extends Component {
 
@@ -14,10 +13,13 @@ export default class App extends Component {
   render() {
     if (window.location.host.split(".")[0] === "dashboard") {
       return (
-        <Provider store={store}>
-          <Router>
+        <Router>
+          <AuthProvider>
             <Switch>
               <Route path="/" exact>
+                <Dashboard />
+              </Route>
+              <Route path="/login" >
                 <Login />
               </Route>
               <Route>
@@ -26,8 +28,8 @@ export default class App extends Component {
               </h4>
               </Route>
             </Switch>
-          </Router>
-        </Provider>
+          </AuthProvider>
+        </Router>
       )
     }
     return (
