@@ -15,5 +15,9 @@ import Keuntungan1 from './images/keuntungan1.png'
 import Keuntungan2 from './images/keuntungan2.png'
 import Keuntungan3 from './images/keuntungan3.png'
 import Keuntungan4 from './images/keuntungan4.png'
+import DashboardBackground from './images/dashboard-back.jpg'
+import Class from './dashboard/class.png'
+import Leason from './dashboard/leason.png'
+import User from './dashboard/user.png'
 
-export { Logo, Logo2, Jumbotron, JumbotronTani, JumbotronKebun, JumbotronHidro, MainAbout, HidropponikAbout, PertanianCat, PerkebunanCat, HidroponikCat, PertanianAbout, PerkebunanAbout, Keuntungan1, Keuntungan2, Keuntungan3, Keuntungan4 }
+export { DashboardBackground, Logo, Logo2, Jumbotron, JumbotronTani, JumbotronKebun, JumbotronHidro, MainAbout, HidropponikAbout, PertanianCat, PerkebunanCat, HidroponikCat, PertanianAbout, PerkebunanAbout, Keuntungan1, Keuntungan2, Keuntungan3, Keuntungan4, Class, User, Leason }

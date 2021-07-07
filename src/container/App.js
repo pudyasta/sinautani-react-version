@@ -1,11 +1,20 @@
+import React, { Component } from 'react'
 import { Navbar } from './components/'
 import { Main, Pertanian, Perkebunan, Hidroponik, Login, Dashboard } from './pages'
 import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom'
 import './App.css'
 
 
-import React, { Component } from 'react'
+import green from '@material-ui/core/colors/green';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
 import { AuthProvider } from '../config/context/authContext';
+
+const success = createMuiTheme({
+  palette: {
+    primary: green,
+  },
+});
 
 export default class App extends Component {
 
@@ -14,21 +23,24 @@ export default class App extends Component {
     if (window.location.host.split(".")[0] === "dashboard") {
       return (
         <Router>
-          <AuthProvider>
-            <Switch>
-              <Route path="/" exact>
-                <Dashboard />
-              </Route>
-              <Route path="/login" >
-                <Login />
-              </Route>
-              <Route>
-                <h4 className='display-2 text-center align-content-center'>
-                  404 Not Found
+          <ThemeProvider theme={success}>
+
+            <AuthProvider>
+              <Switch>
+                <Route path="/" exact>
+                  <Dashboard />
+                </Route>
+                <Route path="/login" >
+                  <Login />
+                </Route>
+                <Route>
+                  <h4 className='display-2 text-center align-content-center'>
+                    404 Not Found
               </h4>
-              </Route>
-            </Switch>
-          </AuthProvider>
+                </Route>
+              </Switch>
+            </AuthProvider>
+          </ThemeProvider>
         </Router>
       )
     }
